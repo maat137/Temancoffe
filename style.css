@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+}
+
+.hero {
+    background: url('img/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 0;
+    position: relative;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.cta {
+    background-color: #6f4e37; /* Warna kopi */
+    color: white;
+}
+
+/* Background untuk Hero Section */
+#hero {
+    background-image: url('img/hero-bg.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 150px 0;
+    position: relative;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay gelap agar teks lebih jelas */
+    z-index: 1;
+}
+
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Styling Logo di Navbar */
+.logo {
+    width: 50px; /* Ukuran logo */
+    height: auto; /* Proporsi logo tetap terjaga */
+    margin-right: 10px; /* Jarak antara logo dan teks */
+    border-radius: 50%; /* Sudut logo menjadi bulat */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Efek bayangan untuk kesan elegan */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem; /* Ukuran teks navbar */
+}
+
+/* Hero section background */
+#hero {
+    background-image: url('path/to/your/image.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+/* Section title styling */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Section CTA Styling */
+.cta h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* General button styling */
+.btn {
+    border-radius: 10px;
+}

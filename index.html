@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teman Coffee - Cikarang Selatan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS CSS for Scroll Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <img src="asset/logo_kopi-removebg-preview-transformed - Copy.png" alt="Teman Coffee Logo" class="logo me-2">
+                <span class="fw-bold text-dark">Teman Coffee</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Lokasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero bg-dark text-white text-center py-5" data-aos="fade-up">
+        <div class="container">
+            <br> <br> <br>
+            <h1 class="display-3 fw-bold">Selamat Datang di Teman Coffee</h1>
+            <p class="lead">Nikmati Coffee dengan Gaya yang Kekinian dan Unik.</p>
+            <a href="#menu" class="btn btn-outline-light btn-lg">Lihat Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <br> <br>
+            <h2 class="section-title mb-4">Menu Andalan Kami</h2>
+            <div class="row justify-content-center">
+                <!-- Signature Series -->
+                <div class="col-10 col-md-3 mb-4">
+                    <a href="signature.html" class="btn btn-lg btn-dark shadow-sm w-100 py-4 fw-bold rounded">Signature Series</a>
+                </div>
+                <!-- Premium Series -->
+                <div class="col-10 col-md-3 mb-4">
+                    <a href="premium.html" class="btn btn-lg btn-secondary shadow-sm w-100 py-4 fw-bold rounded">Premium Series</a>
+                </div>
+                <!-- Flavor Series -->
+                <div class="col-10 col-md-3 mb-4">
+                    <a href="flavor.html" class="btn btn-lg btn-warning shadow-sm w-100 py-4 fw-bold rounded">Flavor Series</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <br> <br>
+            <h2 class="section-title">Tentang Kami</h2>
+            <p class="lead">Teman Coffee adalah Minuman Kekinian Yang <strong>Menyegarkan Dan Unik</strong>, tempat untuk menikmati kopi dan Minuman Yang berkualitas tinggi dan Menyegarkan dengan Cara <strong> On The Go.</strong> </p>
+        </div>
+    </section>
+
+    <!-- Lokasi Section -->
+    <section id="location" class="py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <br> <br>
+            <h2 class="section-title">Lokasi Kami</h2>
+            <iframe src="https://maps.google.com/maps?q=Cikarang%20Selatan&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="cta text-center py-5" data-aos="fade-up">
+        <h2>Hubungi Kami</h2>
+        <p>☎ 0821-XXX-XXXXXX | 📧 temancoffee@email.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Teman Coffee | Dibuat dengan ❤️ oleh temancoffee</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS for Scroll Animations -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script>
+        AOS.init(); // Initialize AOS
+    </script>
+</body>
+</html>
